@@ -19,6 +19,8 @@ public class AddressBook {
         list.add("785423645");
         list.add("abcd@gmail.com");
 
+
+        //Add New Contact
         list1.add("Komal");
         list1.add("Mane");
         list1.add("Narhe");
@@ -30,5 +32,17 @@ public class AddressBook {
 
         System.out.println(list);
         System.out.println(list1);
+
+        //Edit Existing Contact
+
+        list.add(3,"Surat");
+        list.add(4,"Gujrat");
+        list.add(5,"451265");
+        list.add(6,"98564785");
+        list.add(7,"xyzw@gmail.com");
+        System.out.println(list);
+
+
+
     }
 }
